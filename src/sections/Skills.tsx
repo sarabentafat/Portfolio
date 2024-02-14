@@ -59,6 +59,13 @@ const Skills = () => {
                 size={13}
                 className="text-textColor mr-1 mt-2"
               />
+              <p>Redux</p>
+            </li>
+            <li className="flex">
+              <BiSolidRightArrow
+                size={13}
+                className="text-textColor mr-1 mt-2"
+              />
               <p>Node.js</p>
             </li>
             <li className="flex">
@@ -104,6 +111,13 @@ const Skills = () => {
                 className="text-textColor mr-1 mt-2"
               />{" "}
               MongoDB
+            </li>
+            <li className="flex">
+              <BiSolidRightArrow
+                size={13}
+                className="text-textColor mr-1 mt-2"
+              />{" "}
+              FireBase
             </li>
             <li className="flex">
               <BiSolidRightArrow

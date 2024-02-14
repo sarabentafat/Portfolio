@@ -6,6 +6,9 @@ import xdatathonImage from "../assets/xd.png";
 import cours from "../assets/cours.png";
 import food from "../assets/food.png";
 import blog from "../assets/blog.png";
+import ecommerce from "../assets/ecommerceCars.png";
+import collabOn from "../assets/collabOn.png";
+import soaiGame from "../assets/soaiGame.png"
 import { motion } from "framer-motion";
 import { navVariants } from "../utils/motion";
 
@@ -49,6 +52,36 @@ function Card() {
       githubLink: "https://github.com/sarabentafat/BlogAPP",
       tools: "Reactjs Nodejs MongoDB tailwindCss",
       demo: "",
+    },
+    {
+      id: 4,
+      name: "Cars ecommerce application ",
+      image: ecommerce,
+      details:
+        "I was the team leader for the project, responsible for backend development using Express.js. Additionally, I integrated the backend with the frontend using Redux and Axios ",
+      githubLink: "https://github.com/sarabentafat/EcommerceCars",
+      tools: "Nodejs Redux Nodejs MongoDB tailwindCss",
+      demo: "",
+    },
+    {
+      id: 4,
+      name: "Collaboration app",
+      image: collabOn,
+      details:
+        "I was part of the frontend development team for the winning project at the 2023 Innobyte Hackathon hosted by Bytecraft Club.",
+      githubLink: "https://github.com/sarabentafat/collabOn",
+      tools: "Nodejs tailwindCss",
+      demo: "",
+    },
+    {
+      id: 4,
+      name: "Quizz app",
+      image: soaiGame,
+      details:
+        "This web application is an interactive quiz game designed for the welcome day event at SOAI. ",
+      githubLink: "https://github.com/sarabentafat/QuizzApp",
+      tools: "Fireabse Reactjs tailwindCss",
+      demo: "https://learning-e47b8.web.app/",
     },
   ];
 
