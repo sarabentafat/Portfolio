@@ -2,7 +2,7 @@
 import { AiOutlineDeliveredProcedure } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import xdatathonImage from "../assets/xd.png";
-
+import black from "../assets/black.jfif"
 import cours from "../assets/cours.png";
 import food from "../assets/food.png";
 import blog from "../assets/blog.png";
@@ -82,6 +82,16 @@ function Card() {
       githubLink: "https://github.com/sarabentafat/QuizzApp",
       tools: "Fireabse Reactjs tailwindCss",
       demo: "https://learning-e47b8.web.app/",
+    },
+    {
+      id: 5,
+      name: "Freelance react project",
+      image: black,
+      details:
+        " ",
+      githubLink: "",
+      tools: "React Js ,Jest ,React Testing Library",
+      demo: "",
     },
   ];
 
