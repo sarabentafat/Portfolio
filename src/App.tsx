@@ -7,7 +7,7 @@ import About from "./sections/About";
 
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("fakedata");
+ReactGA.initialize("");
 
 function App() {
   return (
