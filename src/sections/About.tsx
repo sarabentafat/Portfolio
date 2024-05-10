@@ -19,7 +19,7 @@ const About = () => {
             whileInView="show"
           >
             <p className="text-pColor">
-              I am currently a 4th-year computer engineering student at
+              I am currently a 4th-year computer engineering student, specializing in cybersecurity, at
               <span className="text-textColor">
                 <a href="https://estin.dz/"> ESTIN </a>
               </span>
